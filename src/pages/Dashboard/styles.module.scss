@@ -1,0 +1,13 @@
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: 0px;
+}
+
+.skeleton {
+  background: #fff;
+  padding: 16px;
+  border-inline-end: 1px solid rgba(5, 5, 5, 0.06);
+}
